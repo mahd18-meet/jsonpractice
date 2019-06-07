@@ -1,5 +1,6 @@
 import React from 'react';
 
+let profileData;
 
 
 export default class App extends React.Component {
@@ -15,9 +16,11 @@ export default class App extends React.Component {
 
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
+    this.getData = this.getData.bind(this);
   }
 
   handleChange(event) {
+    
     const target = event.target;
     const value = target.type === 'checkbox' ? target.checked : target.value;
     const name = target.name;
@@ -28,31 +31,45 @@ export default class App extends React.Component {
   }
 
   async handleSubmit(event) {
-    console.log(this.state)
     let dataToSend = this.state;
     event.preventDefault();
     try {
-     let results = await fetch('http://localhost:3003/posts', {
+     await fetch('http://localhost:3000/posts', {
         method: 'POST',
-        // mode: 'no-cors',
         body : JSON.stringify({
           dataToSend
         }),
         headers: {
           'Accept': 'application/json',
           'Content-Type': 'application/json'
-          // 'Access-Control-Allow-Origin': '*'
         }
       })
-
-      console.log('here are results', results)
     } catch (error) {
       console.log('error', error)
     }
-    
-  
-    
   } 
+
+  
+  async getData() {
+    fetch('http://localhost:3000/posts', {
+        method: 'GET',
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+          // 'Access-Control-Allow-Origin': '*'
+        }
+      }).then(dataWrappedByPromise => dataWrappedByPromise.json())
+      .then((res) => {
+
+        profileData = res[res.length-1];
+        console.log(profileData)
+      })
+  } 
+
+  
+  componentDidMount(){
+    this.getData();
+  }
   
 
   render() {
@@ -74,10 +91,16 @@ export default class App extends React.Component {
           Student?
           <input type="checkbox" name="isStudent" value={this.state.value} onChange={this.handleChange} />
         </label>
+        <button onClick={this.getData}>Click me</button>
         <input type="submit" value="Submit" />
       </form>
+
+    
+      
+      
+      
     );
-  }
+  } 
 }
 
 

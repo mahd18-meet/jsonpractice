@@ -1,39 +1,234 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    },
-    {
       "dataToSend": {
-        "name": "Mahd",
-        "age": "18",
-        "address": "nonya",
-        "phone": "123123123213",
-        "isStudent": true
+        "name": "dasd",
+        "age": "324",
+        "address": "dasd",
+        "phone": "2313",
+        "isStudent": false
       },
       "id": 2
     },
     {
       "dataToSend": {
-        "name": "Joseph",
-        "age": "18",
-        "address": "nonya",
-        "phone": "123123123213",
-        "isStudent": true
+        "name": "Majd",
+        "age": "123123",
+        "address": "dsadas",
+        "phone": "24412312312",
+        "isStudent": false
       },
       "id": 3
-    }
-  ],
-  "comments": [
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "dataToSend": {
+        "name": "Majd",
+        "age": "212",
+        "address": "sAS",
+        "phone": "aSa",
+        "isStudent": false
+      },
+      "id": 4
+    },
+    {
+      "dataToSend": {
+        "name": "Majd",
+        "age": "212",
+        "address": "sAS",
+        "phone": "aSa",
+        "isStudent": false
+      },
+      "id": 5
+    },
+    {
+      "dataToSend": {
+        "name": "dasd",
+        "age": "23",
+        "address": "dsad",
+        "phone": "dsad",
+        "isStudent": false
+      },
+      "id": 6
+    },
+    {
+      "dataToSend": {
+        "name": "Majd",
+        "age": 18,
+        "address": "",
+        "phone": 7777777,
+        "isStudent": false
+      },
+      "id": 7
+    },
+    {
+      "dataToSend": {
+        "name": "dasdasd",
+        "age": "2313",
+        "address": "dsadas",
+        "phone": "xdsadas",
+        "isStudent": false
+      },
+      "id": 8
+    },
+    {
+      "dataToSend": {
+        "name": "Majd1",
+        "age": "1",
+        "address": "dsadasdsad",
+        "phone": "xdsadas",
+        "isStudent": false
+      },
+      "id": 9
+    },
+    {
+      "dataToSend": {
+        "name": "mAJD",
+        "age": 18,
+        "address": "",
+        "phone": 7777777,
+        "isStudent": false
+      },
+      "id": 10
+    },
+    {
+      "dataToSend": {
+        "name": "Majd",
+        "age": "21",
+        "address": "honululu",
+        "phone": "1234",
+        "isStudent": true
+      },
+      "id": 11
+    },
+    {
+      "dataToSend": {
+        "name": "Twig",
+        "age": 18,
+        "address": "",
+        "phone": 7777777,
+        "isStudent": false
+      },
+      "id": 12
+    },
+    {
+      "dataToSend": {
+        "name": "Twig",
+        "age": 18,
+        "address": "",
+        "phone": 7777777,
+        "isStudent": false
+      },
+      "id": 13
+    },
+    {
+      "dataToSend": {
+        "name": "Twig",
+        "age": 18,
+        "address": "",
+        "phone": 7777777,
+        "isStudent": false
+      },
+      "id": 14
+    },
+    {
+      "dataToSend": {
+        "name": "Twiggy",
+        "age": 18,
+        "address": "",
+        "phone": 7777777,
+        "isStudent": false
+      },
+      "id": 15
+    },
+    {
+      "dataToSend": {
+        "name": "Twiggy",
+        "age": 18,
+        "address": "",
+        "phone": 7777777,
+        "isStudent": false
+      },
+      "id": 16
+    },
+    {
+      "dataToSend": {
+        "name": "Twiggy",
+        "age": 18,
+        "address": "",
+        "phone": 7777777,
+        "isStudent": false
+      },
+      "id": 17
+    },
+    {
+      "dataToSend": {
+        "name": "Twiggy",
+        "age": 18,
+        "address": "",
+        "phone": 7777777,
+        "isStudent": false
+      },
+      "id": 18
+    },
+    {
+      "dataToSend": {
+        "name": "Mahd",
+        "age": "99",
+        "address": "",
+        "phone": 7777777,
+        "isStudent": false
+      },
+      "id": 19
+    },
+    {
+      "dataToSend": {
+        "name": "Mahd",
+        "age": "99",
+        "address": "",
+        "phone": 7777777,
+        "isStudent": false
+      },
+      "id": 20
+    },
+    {
+      "dataToSend": {
+        "name": "",
+        "age": 18,
+        "address": "",
+        "phone": 7777777,
+        "isStudent": false
+      },
+      "id": 21
+    },
+    {
+      "dataToSend": {
+        "name": "",
+        "age": 18,
+        "address": "",
+        "phone": 7777777,
+        "isStudent": false
+      },
+      "id": 22
+    },
+    {
+      "dataToSend": {
+        "name": "Twiggy",
+        "age": 18,
+        "address": "",
+        "phone": 7777777,
+        "isStudent": false
+      },
+      "id": 23
+    },
+    {
+      "dataToSend": {
+        "name": "Twiggy",
+        "age": 18,
+        "address": "",
+        "phone": 7777777,
+        "isStudent": false
+      },
+      "id": 24
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

@@ -1,19 +1,104 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "dataToSend": {
+        "name": "dasd",
+        "age": "324",
+        "address": "dasd",
+        "phone": "2313",
+        "isStudent": false
+      },
+      "id": 2
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "dataToSend": {
+        "name": "Majd",
+        "age": "123123",
+        "address": "dsadas",
+        "phone": "24412312312",
+        "isStudent": false
+      },
+      "id": 3
+    },
+    {
+      "dataToSend": {
+        "name": "Majd",
+        "age": "212",
+        "address": "sAS",
+        "phone": "aSa",
+        "isStudent": false
+      },
+      "id": 4
+    },
+    {
+      "dataToSend": {
+        "name": "Majd",
+        "age": "212",
+        "address": "sAS",
+        "phone": "aSa",
+        "isStudent": false
+      },
+      "id": 5
+    },
+    {
+      "dataToSend": {
+        "name": "dasd",
+        "age": "23",
+        "address": "dsad",
+        "phone": "dsad",
+        "isStudent": false
+      },
+      "id": 6
+    },
+    {
+      "dataToSend": {
+        "name": "Majd",
+        "age": 18,
+        "address": "",
+        "phone": 7777777,
+        "isStudent": false
+      },
+      "id": 7
+    },
+    {
+      "dataToSend": {
+        "name": "dasdasd",
+        "age": "2313",
+        "address": "dsadas",
+        "phone": "xdsadas",
+        "isStudent": false
+      },
+      "id": 8
+    },
+    {
+      "dataToSend": {
+        "name": "Majd1",
+        "age": "1",
+        "address": "dsadasdsad",
+        "phone": "xdsadas",
+        "isStudent": false
+      },
+      "id": 9
+    },
+    {
+      "dataToSend": {
+        "name": "mAJD",
+        "age": 18,
+        "address": "",
+        "phone": 7777777,
+        "isStudent": false
+      },
+      "id": 10
+    },
+    {
+      "dataToSend": {
+        "name": "Majd",
+        "age": "21",
+        "address": "honululu",
+        "phone": "1234",
+        "isStudent": true
+      },
+      "id": 11
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
